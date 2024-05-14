@@ -13,7 +13,11 @@
         'fragola'
         ];
 
-    //- stampo in console per verificare la mia lista ;
+//2.aggiungere la pesca all'array della frutta:
+    //- Usando il metodo push alla mia lista, aggiungo un valore ad essa, in questo caso aggiungerei la pesca
+    
+    fruitList.push('pesca');
+
+    //- stampo in console e verifico l'aggiunta del valore 'pesca'  nella mia lista ;
 
     console.log(fruitList);
-    
