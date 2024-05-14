@@ -18,11 +18,13 @@ Fasi
  3. verificare se nell'array di frutta c'è il cocomero:
     - L'esercizio mi pone una condizione, verificare se nella lista c'è il valore cocomero:
       Creo un ciclo della mia lista così da dare ad ogni suo elemeto un indice, questo porterà ad avere il cocomero con indice 6.
-      (for(let i=0; i< fruitList.length; i++ ));
+      (for(let i=0; i< fruitList.length; i++ ){
+        const fruit = fruitList[ i ]
+      });
 
       - se c'è stampiamo: 
-        se l'uguaglianza tra l'indice e il valore coccomero è vera, in console verrà stampato "Trovato! Devo solo preparare il cocktail."
-        (if(i[6]== 'coccomero'){console.log('Trovato! Devo solo preparare il cocktail.')})
+        se l'uguaglianza tra l'indice e il valore cocomero è vera, in console verrà stampato "Trovato! Devo solo preparare il cocktail."
+        (if(fruit[ 6 ]== 'cocomero'){console.log('Trovato! Devo solo preparare il cocktail.')})
          
       - se non lo trovo: 
         altrimenti in console verrà stampato "Oh no, devo uscire a comprare il cocomero!"

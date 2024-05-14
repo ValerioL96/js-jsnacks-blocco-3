@@ -20,4 +20,28 @@
 
     //- stampo in console e verifico l'aggiunta del valore 'pesca'  nella mia lista ;
 
-    console.log(fruitList);
+    
+
+//3.verificare se nell'array di frutta c'è il cocomero:
+   //- L'esercizio mi pone una condizione, verificare se nella lista c'è il valore cocomero:
+       //Creo un ciclo della mia lista così da dare ad ogni suo elemeto un indice, questo porterà ad avere il cocomero con indice 6.
+        
+       for(let i=0; i< fruitList.length; i++ ){
+        const fruit = fruitList[i];
+        console.log(fruit);
+
+        //- se c'è stampiamo: 
+          //se l'uguaglianza tra l'indice e il valore coccomero è vera, in console verrà stampato "Trovato! Devo solo preparare il cocktail."
+
+          if(fruit[6] == 'cocomero'){
+            console.log('cocomero' + 'Trovato! Devo solo preparare il cocktail.');
+        }
+
+       //- se non lo trovo: 
+         //altrimenti in console verrà stampato "Oh no, devo uscire a comprare il cocomero!"
+
+         else{
+            console.log('Oh no, devo uscire a comprare il cocomero!');
+        }
+
+       }
