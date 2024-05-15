@@ -9,4 +9,5 @@ const array = [];
 
  while(number%2 ==1){
     number = Number.parseInt(prompt('Type number'), 10);
+    number++ 
  }
