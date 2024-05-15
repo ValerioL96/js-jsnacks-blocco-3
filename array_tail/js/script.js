@@ -21,4 +21,8 @@
     } 
 
     
+//Stampiamo poi gli ultimi 5 elementi dell'Array
+   //3) stampo in console
+
+   console.log(newArray.slice(-5));
 
