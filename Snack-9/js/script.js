@@ -7,7 +7,11 @@ const array = [];
 
  let  number = Number.parseInt(prompt('Type number'), 10);
 
- while(number%2 ==1){
+ while( array.length<5){
     number = Number.parseInt(prompt('Type number'), 10);
-    number++ 
+    if(Number.isNaN(number)!= true &&  number%2 == 1){
+      array.push(number);
+    }
+    
  }
+ console.log(array);
