@@ -9,12 +9,9 @@ let arrayLenghtB = arrayNumberB.length;
 
 //Aggiungi elementi all'array che ha meno elementi fino a quando ne avrà tanti quanti l'altro
 
-const newElement = [1];
-
-while(arrayLenghtA ==arrayLenghtB === true){
-    console.log(newElement);
-
-    newElement++
-
+while(arrayLenghtA < arrayLenghtB){
+    arrayNumberA.push(Math.round(Math.random()*100));
 
 }
+
+console.log(arrayNumberA,arrayNumberB);
