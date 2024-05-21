@@ -11,6 +11,6 @@ const timerSeconds = setInterval(function(){
     console.log(userNumberSeconds);
     if(userNumberSeconds = 0 ){
         clearInterval(timerSeconds);
-        document.innerHtml(output);
+        console.log('Finite time')
     }
-})
+}, 1000);
