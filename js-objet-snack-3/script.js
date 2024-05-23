@@ -59,17 +59,8 @@ console.log(persone);
 
 // Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l'indicazione se può guidare, in base all'età.
 
-const yesDriver =[];
-const noDriver = [];
+const personeModificate = persone.map((persona)=>{
+return ${persona.nome} ${persona.cognome} ${(persona.età>=18) ? "maggiorene":"minorenne"}
+})
 
-array.forEach(element => {
-    if(element.età<18 || element.età>50){
-        noDriver.push(element);
-    }
-    else{ yesDriver.push(element);
-
-    }
-});
-
-console.log(yesDriver);
-console.log(noDriver);
+console.log(personeModificate)
