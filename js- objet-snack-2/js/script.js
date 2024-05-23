@@ -85,15 +85,17 @@ const autoBenzina= [];
 const auotDiesel = [];
 const auotoDIverseAlim=[];
 
-array.forEach(element => {
-    if(alimentazione= 'benzina'){
-        auto.push(autoBenzina);
-    }else if(alimentazione = 'diesel'){
-        auto.push(auotDiesel);
+array.forEach( (element) => {
+    if(alimentazione== 'benzina'){
+        autoBenzina.push(element);
+    }else if(alimentazione == 'diesel'){
+        auotDiesel.push(element);
     }else{
-        auto.push(auotoDIverseAlim)
+        auotoDIverseAlim.push(element)
     }
-   console.log(autoBenzina,auotDiesel,auotoDIverseAlim)
+   console.log(autoBenzina);
+   console.log(auotDiesel)
+   console.log(auotoDIverseAlim)
 });
 
 
